@@ -197,3 +197,13 @@ Sub FitImageToCell()
 End Sub
 
 ```
+
+## (Bonus) Pin All Images
+Sub PinAllImages()
+
+  For Each pic In ActiveSheet.Pictures
+      pic.Placement = xlMove
+  Next
+
+End Sub
+
