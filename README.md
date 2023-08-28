@@ -199,6 +199,7 @@ End Sub
 ```
 
 ## (Bonus) Pin All Images
+```vba
 Sub PinAllImages()
 
   For Each pic In ActiveSheet.Pictures
@@ -206,4 +207,5 @@ Sub PinAllImages()
   Next
 
 End Sub
+```
 
